@@ -156,6 +156,30 @@ body {
     color: #ffffff;
 }
 
+.section-light * {
+    color: #ffffff;
+}
+
+.section-light h1,
+.section-light h2,
+.section-light h3,
+.section-light h4,
+.section-light h5,
+.section-light h6 {
+    color: #EB6122 !important;
+}
+
+.section-light p,
+.section-light span,
+.section-light div,
+.section-light li {
+    color: #ffffff !important;
+}
+
+.section-light .text-center {
+    color: #ffffff;
+}
+
 /* Grid Layout */
 .grid {
     display: grid;
@@ -189,12 +213,20 @@ body {
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
+.section-light .card * {
+    color: #ffffff !important;
+}
+
 .section-light .card h3 {
-    color: #EB6122;
+    color: #EB6122 !important;
 }
 
 .section-light .card p {
-    color: #cccccc;
+    color: #ffffff !important;
+}
+
+.section-light .card strong {
+    color: #EB6122 !important;
 }
 
 .card:hover {
@@ -237,12 +269,16 @@ body {
     color: #ffffff;
 }
 
+.section-light .feature * {
+    color: #ffffff !important;
+}
+
 .section-light .feature h3 {
-    color: #EB6122;
+    color: #EB6122 !important;
 }
 
 .section-light .feature p {
-    color: #cccccc;
+    color: #ffffff !important;
 }
 
 /* Price Table */
@@ -292,39 +328,80 @@ body {
 .section-light h2,
 .section-light h3,
 .section-light h4 {
-    color: #EB6122;
+    color: #EB6122 !important;
 }
 
 .section-light p {
-    color: #cccccc;
+    color: #ffffff !important;
 }
 
 .section-light a {
-    color: #EB6122;
+    color: #EB6122 !important;
 }
 
 .section-light a:hover {
-    color: #D04E0E;
+    color: #D04E0E !important;
+}
+
+/* Override any inline styles that might cause visibility issues */
+.section-light [style*="color: #666"],
+.section-light [style*="color: #333"],
+.section-light [style*="color: rgb(102"],
+.section-light [style*="color: rgb(51"] {
+    color: #ffffff !important;
+}
+
+.section-light [style*="color: #2c3e50"] {
+    color: #EB6122 !important;
 }
 
 /* Inline styled elements in dark sections */
 .section-light div[style*="background: #f8f9fa"] {
     background: #3a3a3a !important;
-    color: #ffffff;
+    color: #ffffff !important;
 }
 
 .section-light div[style*="background: #f0f0f0"] {
     background: #3a3a3a !important;
-    color: #ffffff;
+    color: #ffffff !important;
     border-color: #555 !important;
 }
 
-.section-light span[style*="color: #666"] {
-    color: #cccccc !important;
+.section-light span[style*="color: #666"],
+.section-light p[style*="color: #666"] {
+    color: #ffffff !important;
 }
 
-.section-light p[style*="color: #666"] {
-    color: #cccccc !important;
+/* Price table specific fixes */
+.section-light .price-table {
+    background: #2a2a2a;
+    color: #ffffff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.section-light .price-table * {
+    color: #ffffff !important;
+}
+
+.section-light .price-table h3 {
+    color: #EB6122 !important;
+}
+
+.section-light .price-table .price {
+    color: #EB6122 !important;
+}
+
+.section-light .price-table p {
+    color: #ffffff !important;
+}
+
+.section-light .price-table .price-features li {
+    color: #ffffff !important;
+    border-bottom: 1px solid #555;
+}
+
+.section-light .price-table strong {
+    color: #EB6122 !important;
 }
 
 .price-table.featured {
@@ -439,8 +516,16 @@ body {
     color: #ffffff;
 }
 
+.section-light .unit-details * {
+    color: #ffffff !important;
+}
+
 .section-light .unit-details p {
-    color: #cccccc;
+    color: #ffffff !important;
+}
+
+.section-light .unit-details strong {
+    color: #EB6122 !important;
 }
 
 /* Pricing info styling */
@@ -455,6 +540,14 @@ body {
 .section-light .pricing-info {
     background: #3a3a3a;
     color: #ffffff;
+}
+
+.section-light .pricing-info * {
+    color: #ffffff !important;
+}
+
+.section-light .pricing-info strong {
+    color: #EB6122 !important;
 }
 
 .footer-bottom {
@@ -643,4 +736,28 @@ body {
 
 .section-light table tr:nth-child(even) {
     background: #3a3a3a;
+}
+
+/* Additional dark theme fixes */
+.section-light table {
+    background: #2a2a2a !important;
+    color: #ffffff !important;
+}
+
+.section-light table th {
+    background: linear-gradient(135deg, #EB6122 0%, #D04E0E 100%) !important;
+    color: white !important;
+}
+
+.section-light table td {
+    border-bottom: 1px solid #555 !important;
+    color: #ffffff !important;
+}
+
+.section-light table tr:nth-child(even) {
+    background: #3a3a3a !important;
+}
+
+.section-light table tr:nth-child(odd) {
+    background: #2a2a2a !important;
 }
