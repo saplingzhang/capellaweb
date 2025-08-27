@@ -1,0 +1,23 @@
+Favicon Information
+==================
+
+For the Capella Residence website, you can create a favicon using:
+
+1. Online Favicon Generators:
+   - https://favicon.io/
+   - https://www.favicon-generator.org/
+   - https://realfavicongenerator.net/
+
+2. Design Elements for Favicon:
+   - Use the letter "C" for Capella
+   - Orange color theme (#EB6122)
+   - Simple, clean design
+   - 32x32 or 16x16 pixels
+
+3. File Format:
+   - Save as favicon.ico
+   - Place in the /images/ directory
+   - Update HTML files to reference: <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+Current Status: Using placeholder favicon reference in HTML files.
+To add actual favicon: Replace the favicon.ico reference with your generated icon file.

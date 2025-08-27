@@ -24,7 +24,7 @@ body {
 
 /* Header and Navigation */
 .header {
-    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    background: linear-gradient(135deg, #EB6122 0%, #D04E0E 100%);
     color: white;
     padding: 1rem 0;
     position: fixed;
@@ -65,7 +65,7 @@ body {
 .nav-menu a:hover,
 .nav-menu a.active {
     background-color: rgba(255,255,255,0.1);
-    color: #ffd700;
+    color: #FFE5D1;
 }
 
 /* Mobile Menu Toggle */
@@ -112,8 +112,8 @@ body {
 .btn {
     display: inline-block;
     padding: 12px 30px;
-    background-color: #ffd700;
-    color: #333;
+    background-color: #EB6122;
+    color: white;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
@@ -123,9 +123,9 @@ body {
 }
 
 .btn:hover {
-    background-color: #ffed4a;
+    background-color: #D04E0E;
     transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px rgba(235,97,34,0.3);
 }
 
 .btn-secondary {
@@ -214,7 +214,7 @@ body {
 
 .feature-icon {
     font-size: 3rem;
-    color: #3498db;
+    color: #EB6122;
     margin-bottom: 1rem;
 }
 
@@ -231,7 +231,7 @@ body {
 
 .price-table.featured {
     transform: scale(1.05);
-    border: 3px solid #ffd700;
+    border: 3px solid #EB6122;
 }
 
 .price-table.featured::before {
@@ -240,8 +240,8 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    background: #ffd700;
-    color: #333;
+    background: #EB6122;
+    color: white;
     padding: 0.5rem;
     font-weight: bold;
 }
@@ -280,7 +280,7 @@ body {
 
 .footer-section h3 {
     margin-bottom: 1rem;
-    color: #ffd700;
+    color: #EB6122;
 }
 
 .footer-section p,
@@ -292,7 +292,7 @@ body {
 }
 
 .footer-section a:hover {
-    color: #ffd700;
+    color: #EB6122;
 }
 
 /* Social Media Links */
@@ -315,8 +315,8 @@ body {
 }
 
 .social-links a:hover {
-    background-color: #ffd700;
-    color: #2c3e50;
+    background-color: #EB6122;
+    color: white;
     transform: translateY(-2px);
 }
 
