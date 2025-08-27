@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Capella Residence sales team. Schedule a tour, get pricing information, or ask questions about our luxury residential development.">
+    <meta name="keywords" content="contact, sales team, schedule tour, real estate inquiry, luxury apartments">
+    <title>Contact Us - Capella Residence</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header class="header">
+        <!-- Navigation will be injected by navigation.js -->
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Page Hero Section -->
+        <section class="hero" style="height: 50vh; background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/contact-hero.jpg');">
+            <div class="hero-content">
+                <h1 class="animate-on-scroll">Contact Our Sales Team</h1>
+                <p class="animate-on-scroll">Let Us Help You Find Your Perfect Home</p>
+            </div>
+        </section>
+
+        <!-- Contact Information -->
+        <section class="section">
+            <div class="container">
+                <h2 class="text-center animate-on-scroll">Get in Touch</h2>
+                <p class="text-center animate-on-scroll mb-3">Our experienced sales team is here to assist you with all your inquiries about Capella Residence. We're committed to helping you find the perfect home that meets your needs and lifestyle.</p>
+                
+                <div class="grid grid-3">
+                    <div class="card text-center animate-on-scroll">
+                        <div class="feature-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Phone</h3>
+                        <p><a href="tel:+15551234567" style="color: #3498db; text-decoration: none;">+1 (555) 123-4567</a></p>
+                        <p style="font-size: 0.9rem; color: #666;">Monday - Sunday<br>9:00 AM - 8:00 PM</p>
+                    </div>
+                    
+                    <div class="card text-center animate-on-scroll">
+                        <div class="feature-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p><a href="mailto:info@capellaresidence.com" style="color: #3498db; text-decoration: none;">info@capellaresidence.com</a></p>
+                        <p style="font-size: 0.9rem; color: #666;">We respond within 24 hours</p>
+                    </div>
+                    
+                    <div class="card text-center animate-on-scroll">
+                        <div class="feature-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Sales Office</h3>
+                        <p>123 Luxury Lane<br>Metropolitan City, MC 12345</p>
+                        <p style="font-size: 0.9rem; color: #666;">Show suite available<br>Appointment recommended</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="section section-light">
+            <div class="container">
+                <div class="grid grid-2">
+                    <div class="animate-on-scroll">
+                        <h2>Send Us a Message</h2>
+                        <p class="mb-2">Fill out the form below and our sales team will contact you within 24 hours to discuss your requirements and answer any questions you may have.</p>
+                        
+                        <form id="contact-form" style="background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                            <div style="margin-bottom: 1rem;">
+                                <label for="name" style="display: block; margin-bottom: 0.5rem; font-weight: bold;">Full Name *</label>
+                                <input type="text" id="name" name="name" required style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 5px; font-size: 1rem;">
+                            </div>
+                            
+                            <div style="margin-bottom: 1rem;">
+                                <label for="email" style="display: block; margin-bottom: 0.5rem; font-weight: bold;">Email Address *</label>
+                                <input type="email" id="email" name="email" required style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 5px; font-size: 1rem;">
+                            </div>
+                            
+                            <div style="margin-bottom: 1rem;">
+                                <label for="phone" style="display: block; margin-bottom: 0.5rem; font-weight: bold;">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 5px; font-size: 1rem;">
+                            </div>
+                            
+                            <div style="margin-bottom: 1rem;">
+                                <label for="interest" style="display: block; margin-bottom: 0.5rem; font-weight: bold;">I'm interested in:</label>
+                                <select id="interest" name="interest" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 5px; font-size: 1rem;">
+                                    <option value="">Please select...</option>
+                                    <option value="studio">Studio Units</option>
+                                    <option value="one-bedroom">One Bedroom Units</option>
+                                    <option value="two-bedroom">Two Bedroom Units</option>
+                                    <option value="multiple">Multiple Unit Types</option>
+                                    <option value="investment">Investment Opportunities</option>
+                                    <option value="general">General Information</option>
+                                </select>
+                            </div>
+                            
+                            <div style="margin-bottom: 1rem;">
+                                <label for="budget" style="display: block; margin-bottom: 0.5rem; font-weight: bold;">Budget Range:</label>
+                                <select id="budget" name="budget" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 5px; font-size: 1rem;">
+                                    <option value="">Please select...</option>
+                                    <option value="under-300k">Under $300,000</option>
+                                    <option value="300k-400k">$300,000 - $400,000</option>
+                                    <option value="400k-500k">$400,000 - $500,000</option>
+                                    <option value="500k-600k">$500,000 - $600,000</option>
+                                    <option value="600k-700k">$600,000 - $700,000</option>
+                                    <option value="over-700k">Over $700,000</option>
+                                </select>
+                            </div>
+                            
+                            <div style="margin-bottom: 1rem;">
+                                <label for="timeline" style="display: block; margin-bottom: 0.5rem; font-weight: bold;">Purchase Timeline:</label>
+                                <select id="timeline" name="timeline" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 5px; font-size: 1rem;">
+                                    <option value="">Please select...</option>
+                                    <option value="immediate">Immediately</option>
+                                    <option value="3-months">Within 3 months</option>
+                                    <option value="6-months">Within 6 months</option>
+                                    <option value="1-year">Within 1 year</option>
+                                    <option value="exploring">Just exploring</option>
+                                </select>
+                            </div>
+                            
+                            <div style="margin-bottom: 1rem;">
+                                <label for="message" style="display: block; margin-bottom: 0.5rem; font-weight: bold;">Message *</label>
+                                <textarea id="message" name="message" rows="5" required placeholder="Please tell us about your requirements, preferred floor level, view preferences, or any specific questions you have..." style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 5px; font-size: 1rem; resize: vertical;"></textarea>
+                            </div>
+                            
+                            <div style="margin-bottom: 1rem;">
+                                <label style="display: flex; align-items: flex-start;">
+                                    <input type="checkbox" id="tour" name="tour" style="margin-right: 0.5rem; margin-top: 0.25rem;">
+                                    <span>I would like to schedule a tour of the show suite and sales office</span>
+                                </label>
+                            </div>
+                            
+                            <div style="margin-bottom: 1rem;">
+                                <label style="display: flex; align-items: flex-start;">
+                                    <input type="checkbox" id="newsletter" name="newsletter" style="margin-right: 0.5rem; margin-top: 0.25rem;">
+                                    <span>I would like to receive updates about Capella Residence and other developments</span>
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="btn" style="width: 100%; padding: 1rem; font-size: 1.1rem; margin-top: 1rem;">Send Message</button>
+                            
+                            <p style="font-size: 0.9rem; color: #666; margin-top: 1rem; text-align: center;">By submitting this form, you agree to our <a href="#" style="color: #3498db;">Privacy Policy</a> and consent to be contacted by our sales team.</p>
+                        </form>
+                    </div>
+                    
+                    <div class="animate-on-scroll">
+                        <h2>Why Choose Capella Residence?</h2>
+                        <div style="margin: 2rem 0;">
+                            <div style="display: flex; align-items: flex-start; margin-bottom: 1.5rem;">
+                                <div style="background: #3498db; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem; flex-shrink: 0;">
+                                    <i class="fas fa-award"></i>
+                                </div>
+                                <div>
+                                    <h4 style="margin-bottom: 0.5rem;">Award-Winning Design</h4>
+                                    <p style="color: #666; margin: 0;">Recognized for architectural excellence and innovative living spaces.</p>
+                                </div>
+                            </div>
+                            
+                            <div style="display: flex; align-items: flex-start; margin-bottom: 1.5rem;">
+                                <div style="background: #27ae60; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem; flex-shrink: 0;">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <h4 style="margin-bottom: 0.5rem;">Prime Location</h4>
+                                    <p style="color: #666; margin: 0;">Walking distance to business districts, shopping, and entertainment.</p>
+                                </div>
+                            </div>
+                            
+                            <div style="display: flex; align-items: flex-start; margin-bottom: 1.5rem;">
+                                <div style="background: #e74c3c; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem; flex-shrink: 0;">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div>
+                                    <h4 style="margin-bottom: 0.5rem;">Luxury Amenities</h4>
+                                    <p style="color: #666; margin: 0;">World-class facilities including pool, gym, and 24/7 concierge.</p>
+                                </div>
+                            </div>
+                            
+                            <div style="display: flex; align-items: flex-start; margin-bottom: 1.5rem;">
+                                <div style="background: #f39c12; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem; flex-shrink: 0;">
+                                    <i class="fas fa-handshake"></i>
+                                </div>
+                                <div>
+                                    <h4 style="margin-bottom: 0.5rem;">Flexible Payment Plans</h4>
+                                    <p style="color: #666; margin: 0;">Multiple payment options to make your dream home affordable.</p>
+                                </div>
+                            </div>
+                            
+                            <div style="display: flex; align-items: flex-start; margin-bottom: 1.5rem;">
+                                <div style="background: #9b59b6; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem; flex-shrink: 0;">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <div>
+                                    <h4 style="margin-bottom: 0.5rem;">Investment Potential</h4>
+                                    <p style="color: #666; margin: 0;">Strong rental demand and projected appreciation in this area.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 10px; margin-top: 2rem;">
+                            <h4 style="color: #2c3e50; margin-bottom: 1rem;">Sales Office Hours</h4>
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                <span>Monday - Friday:</span>
+                                <span style="font-weight: bold;">9:00 AM - 8:00 PM</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                <span>Saturday:</span>
+                                <span style="font-weight: bold;">9:00 AM - 6:00 PM</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between;">
+                                <span>Sunday:</span>
+                                <span style="font-weight: bold;">10:00 AM - 5:00 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sales Team -->
+        <section class="section">
+            <div class="container">
+                <h2 class="text-center animate-on-scroll">Meet Our Sales Team</h2>
+                <div class="grid grid-3">
+                    <div class="card text-center animate-on-scroll">
+                        <img src="images/sales-manager.jpg" alt="Jennifer Adams - Sales Manager" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; margin: 0 auto 1rem;">
+                        <h3>Jennifer Adams</h3>
+                        <p><strong>Sales Manager</strong></p>
+                        <p style="color: #666; margin-bottom: 1rem;">15+ years in luxury real estate with extensive knowledge of the metropolitan market.</p>
+                        <p><i class="fas fa-phone" style="color: #3498db; margin-right: 0.5rem;"></i> <a href="tel:+15551234567" style="color: #3498db; text-decoration: none;">+1 (555) 123-4567</a></p>
+                        <p><i class="fas fa-envelope" style="color: #3498db; margin-right: 0.5rem;"></i> <a href="mailto:jennifer@capellaresidence.com" style="color: #3498db; text-decoration: none;">jennifer@capellaresidence.com</a></p>
+                    </div>
+                    
+                    <div class="card text-center animate-on-scroll">
+                        <img src="images/sales-consultant1.jpg" alt="Michael Chen - Senior Sales Consultant" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; margin: 0 auto 1rem;">
+                        <h3>Michael Chen</h3>
+                        <p><strong>Senior Sales Consultant</strong></p>
+                        <p style="color: #666; margin-bottom: 1rem;">Specialist in investment properties and international clients with multilingual capabilities.</p>
+                        <p><i class="fas fa-phone" style="color: #3498db; margin-right: 0.5rem;"></i> <a href="tel:+15551234568" style="color: #3498db; text-decoration: none;">+1 (555) 123-4568</a></p>
+                        <p><i class="fas fa-envelope" style="color: #3498db; margin-right: 0.5rem;"></i> <a href="mailto:michael@capellaresidence.com" style="color: #3498db; text-decoration: none;">michael@capellaresidence.com</a></p>
+                    </div>
+                    
+                    <div class="card text-center animate-on-scroll">
+                        <img src="images/sales-consultant2.jpg" alt="Sarah Thompson - Sales Consultant" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; margin: 0 auto 1rem;">
+                        <h3>Sarah Thompson</h3>
+                        <p><strong>Sales Consultant</strong></p>
+                        <p style="color: #666; margin-bottom: 1rem;">Expert in first-time home buying and mortgage assistance with a focus on customer service.</p>
+                        <p><i class="fas fa-phone" style="color: #3498db; margin-right: 0.5rem;"></i> <a href="tel:+15551234569" style="color: #3498db; text-decoration: none;">+1 (555) 123-4569</a></p>
+                        <p><i class="fas fa-envelope" style="color: #3498db; margin-right: 0.5rem;"></i> <a href="mailto:sarah@capellaresidence.com" style="color: #3498db; text-decoration: none;">sarah@capellaresidence.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Location Map -->
+        <section class="section section-light">
+            <div class="container">
+                <h2 class="text-center animate-on-scroll">Location & Directions</h2>
+                <div class="grid grid-2">
+                    <div class="animate-on-scroll">
+                        <h3>Getting Here</h3>
+                        <div style="margin: 1.5rem 0;">
+                            <h4><i class="fas fa-car" style="color: #3498db; margin-right: 0.5rem;"></i> By Car</h4>
+                            <p style="margin-bottom: 1rem;">Free visitor parking available in our underground garage. Enter from Luxury Lane and follow signs to visitor parking.</p>
+                            
+                            <h4><i class="fas fa-subway" style="color: #27ae60; margin-right: 0.5rem;"></i> Public Transit</h4>
+                            <p style="margin-bottom: 1rem;">Metro Station is a 5-minute walk. Take the Blue Line to Metropolitan Center Station, Exit 2.</p>
+                            
+                            <h4><i class="fas fa-plane" style="color: #e74c3c; margin-right: 0.5rem;"></i> From Airport</h4>
+                            <p style="margin-bottom: 1rem;">25 minutes by taxi or airport express bus. Direct bus service available every 30 minutes.</p>
+                        </div>
+                        
+                        <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 10px;">
+                            <h4>Nearby Amenities</h4>
+                            <ul style="list-style: none; padding: 0; margin: 1rem 0;">
+                                <li style="margin-bottom: 0.5rem;"><i class="fas fa-shopping-cart" style="color: #f39c12; margin-right: 0.5rem;"></i> Metropolitan Mall - 2 blocks</li>
+                                <li style="margin-bottom: 0.5rem;"><i class="fas fa-utensils" style="color: #e67e22; margin-right: 0.5rem;"></i> Fine Dining District - 3 blocks</li>
+                                <li style="margin-bottom: 0.5rem;"><i class="fas fa-hospital" style="color: #e74c3c; margin-right: 0.5rem;"></i> Central Hospital - 1 mile</li>
+                                <li style="margin-bottom: 0.5rem;"><i class="fas fa-graduation-cap" style="color: #9b59b6; margin-right: 0.5rem;"></i> University Campus - 1.5 miles</li>
+                                <li style="margin-bottom: 0.5rem;"><i class="fas fa-tree" style="color: #27ae60; margin-right: 0.5rem;"></i> Central Park - 4 blocks</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="animate-on-scroll">
+                        <div style="width: 100%; height: 400px; background: #f0f0f0; border-radius: 10px; display: flex; align-items: center; justify-content: center; border: 2px dashed #ccc;">
+                            <div style="text-align: center; color: #666;">
+                                <i class="fas fa-map-marker-alt" style="font-size: 3rem; margin-bottom: 1rem; color: #3498db;"></i>
+                                <h3>Interactive Map</h3>
+                                <p>Map integration would be placed here<br>showing exact location and nearby amenities</p>
+                                <a href="#" class="btn btn-secondary">View in Google Maps</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="section">
+            <div class="container">
+                <h2 class="text-center animate-on-scroll">Frequently Asked Questions</h2>
+                <div class="grid grid-2">
+                    <div class="animate-on-scroll">
+                        <div style="margin-bottom: 2rem;">
+                            <h4 style="color: #2c3e50; margin-bottom: 0.5rem;">What is the expected completion date?</h4>
+                            <p style="color: #666;">Capella Residence is expected to be completed by Q4 2024, with move-ins beginning in January 2025.</p>
+                        </div>
+                        
+                        <div style="margin-bottom: 2rem;">
+                            <h4 style="color: #2c3e50; margin-bottom: 0.5rem;">Are pets allowed?</h4>
+                            <p style="color: #666;">Yes, we welcome pets! There are some restrictions on size and breed. Please inquire about our pet policy for details.</p>
+                        </div>
+                        
+                        <div style="margin-bottom: 2rem;">
+                            <h4 style="color: #2c3e50; margin-bottom: 0.5rem;">What financing options are available?</h4>
+                            <p style="color: #666;">We offer construction payment plans and work with major banks to provide competitive mortgage rates. Our team can help with pre-approval.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="animate-on-scroll">
+                        <div style="margin-bottom: 2rem;">
+                            <h4 style="color: #2c3e50; margin-bottom: 0.5rem;">Can I customize my unit?</h4>
+                            <p style="color: #666;">Limited customization options are available for units purchased early in the construction phase. Contact us to discuss possibilities.</p>
+                        </div>
+                        
+                        <div style="margin-bottom: 2rem;">
+                            <h4 style="color: #2c3e50; margin-bottom: 0.5rem;">What warranty is provided?</h4>
+                            <p style="color: #666;">All units come with a comprehensive 5-year warranty covering structural elements and a 2-year warranty on appliances and finishes.</p>
+                        </div>
+                        
+                        <div style="margin-bottom: 2rem;">
+                            <h4 style="color: #2c3e50; margin-bottom: 0.5rem;">Is rental investment allowed?</h4>
+                            <p style="color: #666;">Yes, rental investment is permitted with some restrictions. Please discuss our rental policy with our sales team.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Capella Residence</h3>
+                    <p>Your premier destination for luxury living. Experience the perfect blend of comfort, style, and modern convenience.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="units.html">Floor Plans</a>
+                    <a href="pricing.html">Pricing</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@capellaresidence.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Luxury Lane, Metropolitan City</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Capella Residence. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/navigation.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
