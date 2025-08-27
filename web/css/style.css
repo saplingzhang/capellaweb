@@ -152,7 +152,8 @@ body {
 }
 
 .section-light {
-    background-color: #f8f9fa;
+    background-color: #1a1a1a;
+    color: #ffffff;
 }
 
 /* Grid Layout */
@@ -180,6 +181,20 @@ body {
     padding: 2rem;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section-light .card {
+    background: #2a2a2a;
+    color: #ffffff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.section-light .card h3 {
+    color: #EB6122;
+}
+
+.section-light .card p {
+    color: #cccccc;
 }
 
 .card:hover {
@@ -218,6 +233,18 @@ body {
     margin-bottom: 1rem;
 }
 
+.section-light .feature {
+    color: #ffffff;
+}
+
+.section-light .feature h3 {
+    color: #EB6122;
+}
+
+.section-light .feature p {
+    color: #cccccc;
+}
+
 /* Price Table */
 .price-table {
     background: white;
@@ -227,6 +254,77 @@ body {
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     position: relative;
     overflow: hidden;
+}
+
+.section-light .price-table {
+    background: #2a2a2a;
+    color: #ffffff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.section-light .price-table h3 {
+    color: #EB6122;
+}
+
+.section-light .price-table .price {
+    color: #EB6122;
+}
+
+.section-light .price-table p {
+    color: #cccccc;
+}
+
+.section-light .price-table .unit-details {
+    background: #3a3a3a;
+    color: #ffffff;
+}
+
+.section-light .price-table .price-features li {
+    color: #cccccc;
+    border-bottom: 1px solid #555;
+}
+
+/* Dark section icon colors */
+.section-light .fas {
+    color: #EB6122 !important;
+}
+
+.section-light h2,
+.section-light h3,
+.section-light h4 {
+    color: #EB6122;
+}
+
+.section-light p {
+    color: #cccccc;
+}
+
+.section-light a {
+    color: #EB6122;
+}
+
+.section-light a:hover {
+    color: #D04E0E;
+}
+
+/* Inline styled elements in dark sections */
+.section-light div[style*="background: #f8f9fa"] {
+    background: #3a3a3a !important;
+    color: #ffffff;
+}
+
+.section-light div[style*="background: #f0f0f0"] {
+    background: #3a3a3a !important;
+    color: #ffffff;
+    border-color: #555 !important;
+}
+
+.section-light span[style*="color: #666"] {
+    color: #cccccc !important;
+}
+
+.section-light p[style*="color: #666"] {
+    color: #cccccc !important;
 }
 
 .price-table.featured {
@@ -265,7 +363,7 @@ body {
 
 /* Footer */
 .footer {
-    background-color: #2c3e50;
+    background-color: #0d0d0d;
     color: white;
     text-align: center;
     padding: 3rem 0 1rem;
@@ -336,8 +434,13 @@ body {
     margin: 1rem 0;
 }
 
-.unit-details p {
-    margin-bottom: 0.5rem;
+.section-light .unit-details {
+    background: #3a3a3a;
+    color: #ffffff;
+}
+
+.section-light .unit-details p {
+    color: #cccccc;
 }
 
 /* Pricing info styling */
@@ -347,6 +450,11 @@ body {
     background: #f8f9fa;
     border-radius: 5px;
     margin-top: 1rem;
+}
+
+.section-light .pricing-info {
+    background: #3a3a3a;
+    color: #ffffff;
 }
 
 .footer-bottom {
@@ -485,3 +593,54 @@ body {
 .mt-1 { margin-top: 1rem; }
 .mt-2 { margin-top: 2rem; }
 .mt-3 { margin-top: 3rem; }
+
+/* Dark section form styling */
+.section-light form {
+    background: #2a2a2a;
+    color: #ffffff;
+}
+
+.section-light input,
+.section-light select,
+.section-light textarea {
+    background: #3a3a3a;
+    color: #ffffff;
+    border: 1px solid #555;
+}
+
+.section-light input:focus,
+.section-light select:focus,
+.section-light textarea:focus {
+    border-color: #EB6122;
+    outline: none;
+    box-shadow: 0 0 5px rgba(235, 97, 34, 0.3);
+}
+
+.section-light label {
+    color: #ffffff;
+}
+
+.section-light .form-message {
+    background: #3a3a3a;
+    border: 1px solid #555;
+    color: #ffffff;
+}
+
+/* Dark section table styling */
+.section-light table {
+    background: #2a2a2a;
+    color: #ffffff;
+}
+
+.section-light table th {
+    background: linear-gradient(135deg, #EB6122 0%, #D04E0E 100%);
+    color: white;
+}
+
+.section-light table td {
+    border-bottom: 1px solid #555;
+}
+
+.section-light table tr:nth-child(even) {
+    background: #3a3a3a;
+}
